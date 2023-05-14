@@ -1,11 +1,33 @@
-body {
-    background-color: antiquewhite;
+div {
+    background-color:rgb(23, 2, 71);
+    color:white;
+    height: 100%;
+    padding-top: 5rem;
+    padding-left: 2rem;
+}
+
+button {
+    background-color: rgb(23, 2, 71);
+    color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+button:hover {
+    background-color: red;
+    color:rgb(23, 2, 71);
 }
 
 main {
     display: grid;
     grid-template-columns: 200px 200px 200px;
     grid-gap: 0px;
+    margin-top: 1rem;
 }
 
 app-square {
@@ -13,6 +35,3 @@ app-square {
     height: 200px;
 }
 
-.hey {
-    color:red;
-}
